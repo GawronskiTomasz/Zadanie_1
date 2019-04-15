@@ -55,24 +55,6 @@ public class ChangeContact extends AppCompatActivity {
             name = tabString[3];
         if(view.getId()==R.id.rb5)
             name = tabString[4];
-            /*switch (view.getId()) {
-                case R.id.rb1:
-                    name = tabString[0];
-                    break;
-                case R.id.rb2:
-                    name = tabString[1];
-                    break;
-                case R.id.rb3:
-                    name = tabString[2];
-                    break;
-                case R.id.rb4:
-                    name = tabString[3];
-                    break;
-                case R.id.rb5:
-                    name = tabString[4];
-                    break;
-
-        }*/
     }
 
     public void confirm(View view) {
