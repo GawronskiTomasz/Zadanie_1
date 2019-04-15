@@ -1,13 +1,11 @@
 package com.example.contact;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Base64;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class ChangeContact extends AppCompatActivity {
@@ -22,16 +20,22 @@ public class ChangeContact extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_contact);
         tabString = getResources().getStringArray(R.array.contacts);
+        
         radio1 = findViewById(R.id.rb1);
         radio1.setText(tabString[0]);
+
         radio2 = findViewById(R.id.rb2);
         radio2.setText(tabString[1]);
+
         radio3 = findViewById(R.id.rb3);
         radio3.setText(tabString[2]);
+
         radio4 = findViewById(R.id.rb4);
         radio4.setText(tabString[3]);
+
         radio5 = findViewById(R.id.rb5);
         radio5.setText(tabString[4]);
+
         cancel = findViewById(R.id.cancel);
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
